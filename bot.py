@@ -28,7 +28,7 @@ def keyboard():
     kb = ReplyKeyboardBuilder()
     kb.add(types.KeyboardButton(text="💧 Выпил воду"))
     kb.add(types.KeyboardButton(text="📊 Статистика"))
-    kb.adjust(1)
+    kb.adjust(1) 
     return kb.as_markup(resize_keyboard=True)
 
 @dp.message(Command("start"))
